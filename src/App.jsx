@@ -1,4 +1,5 @@
 import './App.css'
+import OrderHistory from './components/OrderHistory'
 import { OrderTable } from './components/OrderTable'
 import RevenueCard from './components/RevenueCard'
 import Sidebar from './components/Sidebar'
@@ -10,7 +11,8 @@ function App() {
       {/* <Topbar/>
       <RevenueCard/> */}
       {/* <Sidebar/> */}
-      <OrderTable/>
+      {/* <OrderTable/> */}
+      <OrderHistory/>
     </>
   )
 }
