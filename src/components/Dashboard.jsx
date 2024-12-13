@@ -50,10 +50,10 @@ const Dashboard = () => {
         <p>
           Made By{' '}
           <a
-            href='https://imstark.xyz/'
+            href=''
             target='_blank'
             className='text-blue-400'>
-            Prabal Gupta (Stark)
+            Niraj Gupta
           </a>
           , inspired by{' '}
           <a
@@ -63,7 +63,7 @@ const Dashboard = () => {
             Dukaan App UI
           </a>
         </p>
-        <a href='https://github.com/prabal-007/dukaan-ui-clone/tree/master'>
+        <a href='https://github.com/Niraj313/Dukaan-UI'>
           Get the source code
         </a>
       </div>
