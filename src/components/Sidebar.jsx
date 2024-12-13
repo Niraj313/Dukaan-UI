@@ -54,13 +54,13 @@ const Sidebar = () => {
         <div className='h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-[#1e2640]'>
           <div className='flex justify-between md:justify-start items-center ps-2.5 mb-5'>
             <img
-              src='/me.jpg'
+              src='/Nlogo.jpg'
               className='h-6 me-3 sm:h-10 rounded-full'
-              alt="I'm Stark"
+              alt=""
             />
             <div className='flex flex-col justify-start items-start text-left'>
               <h4 className='self-center font-semibold whitespace-nowrap dark:text-white w-[-webkit-fill-available]'>
-                Stark
+                Niraj
               </h4>
               <a
                 href='https://imstark.xyz/'
@@ -95,7 +95,7 @@ const Sidebar = () => {
               <IoClose />
             </button>
           </div>
-          <ul className='space-y-2 font-medium'>
+          <ul className='space-y-1 font-light'>
             <li>
               <a
                 href='#'

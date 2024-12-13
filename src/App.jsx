@@ -1,18 +1,16 @@
 import './App.css'
-import OrderHistory from './components/OrderHistory'
-import { OrderTable } from './components/OrderTable'
-import RevenueCard from './components/RevenueCard'
+import Dashboard from './components/Dashboard'
 import Sidebar from './components/Sidebar'
-import Topbar from './components/Topbar'
 
 function App() {
   return (
     <>
-      {/* <Topbar/>
-      <RevenueCard/> */}
-      {/* <Sidebar/> */}
-      {/* <OrderTable/> */}
-      <OrderHistory/>
+      <div>
+        <Sidebar />
+        <div className='sm:ml-64'>
+          <Dashboard/>
+        </div>
+      </div>
     </>
   )
 }
